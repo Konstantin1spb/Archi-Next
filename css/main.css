@@ -136,6 +136,11 @@
 	margin: 0 auto;
 }
 
+.main_container_big_text {
+	width: 100%;
+	margin: 0 auto;
+}
+
 header {
 	height: 862px;
 
@@ -647,7 +652,7 @@ footer {
 
 /* Laptop M */
 @media only screen and (min-width : 1024px) and (max-width : 1199px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 92%;
 	}
 
@@ -771,12 +776,24 @@ footer {
 
 /* Desktop L and more */
 @media only screen and (min-width : 1920px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 62%;
 	}
 }
 
 /* Optional */
+@media only screen and (max-width : 500px) {
+	.big_text {
+		margin-left: 6%;
+	}
+}
+
+@media only screen and (min-width : 501px) and (max-width : 1023px) {
+	.big_text {
+		margin-left: 9%;
+	}
+}
+
 @media only screen and (max-width : 1023px) {
 	.logo_nav_container {
 		width: 97%;
@@ -883,7 +900,7 @@ footer {
 	}
 
 	header {
-		height: 2250px;
+		height: 2230px;
 	}
 
 	.all_cards {
@@ -1030,11 +1047,13 @@ footer {
 	}
 }
 
-@media only screen and (min-width : 468px) and (max-width : 600px) {
+@media only screen and (min-width : 468px) and (max-width : 529px) {
 	.big_text {
-		font-size: 35px;
+		font-size: 42px;
 	}
+}
 
+@media only screen and (min-width : 468px) and (max-width : 600px) {
 	header {
     	height: 2200px;
 	}
@@ -1042,37 +1061,37 @@ footer {
 
 @media only screen and (min-width : 401px) and (max-width : 468px) {
 	.big_text {
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	header {
-    	height: 2160px;
+    	height: 2170px;
 	}
 }
 
 @media only screen and (min-width : 401px) and (max-width : 428px) {
 	header {
-    	height: 1980px;
+    	height: 2000px;
 	}
 }
 
 @media only screen and (min-width : 334px) and (max-width : 400px) {
 	.big_text {
-		font-size: 25px;
+		font-size: 30px;
 	}
 
 	header {
-    	height: 1950px;
+    	height: 1980px;
 	}
 }
 
 @media only screen and (min-width : 250px) and (max-width : 334px) {
 	.big_text {
-		font-size: 23px;
+		font-size: 28px;
 	}
 
 	header {
-    	height: 1940px;
+    	height: 1970px;
 	}
 }
 
@@ -1137,7 +1156,7 @@ footer {
 }
 
 @media only screen and (min-width : 1200px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 95%;
 	}
 
@@ -1153,13 +1172,13 @@ footer {
 }
 
 @media only screen and (min-width : 1300px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 87%;
 	}
 }
 
 @media only screen and (min-width : 1400px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 82%;
 	}
 
@@ -1175,7 +1194,7 @@ footer {
 }
 
 @media only screen and (min-width : 1600px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 73%;
 	}
 
@@ -1185,7 +1204,7 @@ footer {
 }
 
 @media only screen and (min-width : 1700px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 70%;
 	}
 
@@ -1195,13 +1214,13 @@ footer {
 }
 
 @media only screen and (min-width : 1730px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 67%;
 	}
 }
 
 @media only screen and (min-width : 1800px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 65%;
 	}
 
@@ -1211,7 +1230,7 @@ footer {
 }
 
 @media only screen and (min-width : 1955px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 60%;
 	}
 }
@@ -1233,25 +1252,25 @@ footer {
 }
 
 @media only screen and (min-width : 2200px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 55%;
 	}
 }
 
 @media only screen and (min-width : 2300px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 52%;
 	}
 }
 
 @media only screen and (min-width : 2400px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 50%;
 	}
 }
 
 @media only screen and (min-width : 2500px) {
-	.main_container, .logo_nav_container {
+	.main_container, .logo_nav_container, .main_container_big_text {
 		width: 47%;
 	}
 }
